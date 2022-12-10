@@ -60,7 +60,7 @@ function App() {
   };
   return (
     <Container>
-      <AppLabel>React Weather App</AppLabel>
+      <AppLabel>React Weather Application</AppLabel>
       {city && weather ? (
         <WeatherComponent weather={weather} city={city} />
       ) : (
